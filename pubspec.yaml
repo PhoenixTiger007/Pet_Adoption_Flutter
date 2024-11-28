@@ -1,0 +1,63 @@
+name: flutter_pet_shop
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  shared_preferences: ^2.3.2
+  flutter_slidable: ^3.1.1
+  flutter_rating_bar: ^4.0.1
+  image_picker: ^1.1.2
+  pin_input_text_field: ^4.5.2
+  country_code_picker: ^3.0.0
+  carousel_slider: ^5.0.0
+  figma_squircle: ^0.5.3
+  universal_platform: ^1.0.0+1
+  file: ^7.0.0
+  smooth_page_indicator: ^1.2.0+3
+  cupertino_icons: ^1.0.8
+  dotted_line: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: fonts/SFProText-Bold.otf
+        - asset: fonts/SFProText-Medium.otf
+        - asset: fonts/SFProText-Regular.otf
+
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-ExtraBold.otf
+        - asset: fonts/Gilroy-Light.otf
+        - asset: fonts/Gilroy-Bold.ttf
+        - asset: fonts/Gilroy-Medium.ttf
+        - asset: fonts/Gilroy-SemiBold.ttf
+        - asset: fonts/Gilroy-Thin.ttf
+
+    - family: Sniglet
+      fonts:
+        - asset: fonts/Sniglet-Regular.ttf
+
+flutter_intl:
+  enabled: true
